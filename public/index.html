@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria UCB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Livraria UCB</h1>
+        <div id="livros-lista"></div>
+        
+        <form id="form-cadastrar-livro">
+            <h2>Cadastrar Novo Livro</h2>
+            <input type="text" id="titulo" placeholder="Título" required>
+            <input type="text" id="autor" placeholder="Autor" required>
+            <input type="text" id="genero" placeholder="Gênero" required>
+            <input type="text" id="imagem" placeholder="URL da Imagem da Capa">
+            <input type="number" id="numeroExemplares" placeholder="Número de Exemplares" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        
+        <form id="form-buscar-livro">
+            <h2>Buscar Livro por Nome</h2>
+            <input type="text" id="buscarTitulo" placeholder="Título">
+            <button type="submit">Buscar</button>
+        </form>
+
+        <form id="form-compra-livro">
+            <h2>Comprar Livro</h2>
+            <input type="number" id="compraId" placeholder="ID do Livro" required>
+            <button type="submit">Comprar</button>
+        </form>
+
+        <form id="form-adicionar-exemplares">
+            <h2>Adicionar Exemplares</h2>
+            <input type="number" id="adicionarId" placeholder="ID do Livro" required>
+            <input type="number" id="quantidade" placeholder="Quantidade" required>
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <form id="form-editar-livro">
+            <h2>Editar Livro</h2>
+            <input type="number" id="editarId" placeholder="ID do Livro" required>
+            <input type="text" id="editarTitulo" placeholder="Título">
+            <input type="text" id="editarAutor" placeholder="Autor">
+            <input type="text" id="editarGenero" placeholder="Gênero">
+            <input type="text" id="editarImagem" placeholder="URL da Imagem da Capa">
+            <input type="number" id="editarNumeroExemplares" placeholder="Número de Exemplares">
+            <button type="submit">Editar</button>
+        </form>
+
+        <form id="form-remover-livro">
+            <h2>Remover Livro</h2>
+            <input type="number" id="removerId" placeholder="ID do Livro" required>
+            <button type="submit">Remover</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
