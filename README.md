@@ -46,3 +46,5 @@ Abra o navegador e navegue para http://localhost:3000 (ou a porta configurada).
 Uso
 Ao acessar a aplicação, você verá uma lista de livros disponíveis na biblioteca da UCB.
 Utilize os campos e botões fornecidos para cadastrar novos livros, buscar livros por título, comprar exemplares, editar informações de livros existentes ou remover livros do acervo.
+
+Integrantes: Maria Eduarda Castro, Guilherme Marques Fernandes, Fabio Augusto Dias Nascimento, Paulo Vinicios Gomes Nogueira.
