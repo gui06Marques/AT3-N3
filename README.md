@@ -16,6 +16,8 @@ Tecnologias Utilizadas:
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Banco de Dados: SQLite (utilizado via SQLite3)
+Extensão usada para fazer alterações em equipe: Live share
+(foi feito em grupo em uma ligação do discord, mas as alterações só foram salvar pelo usuário que criou o repositório)
 
 
 Configuração do Ambiente:
